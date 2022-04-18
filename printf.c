@@ -19,7 +19,7 @@ int _printf(const char *format, ...)
 	if (format == NULL)
 		return (-1);
 
-	va_start (ap, format);
+	va_start(ap, format);
 
 	/* check each character in format */
 	for (f_idx = 0, b_idx = 0; format[f_idx] != '\0'; f_idx++)
@@ -42,7 +42,7 @@ int _printf(const char *format, ...)
 		}
 	}
 
-	va_end (ap);
+	va_end(ap);
 
-    return (write(1, buffer, b_idx));
+	return (write(1, buffer, b_idx));
 }

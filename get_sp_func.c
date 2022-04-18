@@ -9,7 +9,7 @@
 int (*get_sp_func(char c))(va_list, char *, int)
 {
 	sp_t sps[] = {
-		{'c', print_char},
+		{'c', add_char},
 		{'\0', NULL}
 	};
 

@@ -1,12 +1,14 @@
 #include "main.h"
 
 /**
- * print_char - adds a given character to a given buffer
- * @c: The character to print
+ * add_char - adds a given character to a given buffer
+ * @ap: va_list containing the character to add
+ * @buffer: character buffer
+ * @i: index from which to start adding to buffer
  *
  * Return: 1(number of characters added)
  */
-int print_char(va_list ap, char *buffer, int i)
+int add_char(va_list ap, char *buffer, int i)
 {
 	char c = (char) va_arg(ap, int);
 
