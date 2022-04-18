@@ -11,6 +11,7 @@ int (*get_sp_func(char c))(va_list, char *, int)
 	sp_t sps[] = {
 		{'c', add_char},
 		{'s', add_str},
+		{'%', add_percent},
 		{'\0', NULL}
 	};
 
