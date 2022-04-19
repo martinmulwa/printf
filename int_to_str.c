@@ -9,7 +9,7 @@
  */
 char *int_to_str(unsigned int num, int base)
 {
-	char *symbols = "0123456789abcdef";
+	char *symbols = "0123456789ABCDEF";
 	char *result;
 	char digits[1024] = {0};
 	int i, length = 0;
