@@ -133,6 +133,17 @@ $ gcc *.c your_C_source_code -o output
 But the simplest solution is to make it portable, in other words to create a static library:
 
 
+gcc *.c
+
+ar -rc libprintf. a *. o
+
+ranlib libprintf.a
+
+Now you will have printf.a static library, and all you have to do is compile your code with this library:
+
+gcc your_C_source_code -L. -lprintf
+
+
 
 
 
