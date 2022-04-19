@@ -71,6 +71,11 @@ print_hex      Prints hexadecimal in lowercase %x
 
 print_HEX    Prints hexadecimal in uppercase %X
 
+print_unsigned	Prints unsigned integer %u
+
+print_S	Prints string, prints hex value of non visible characters %S
+
+
 
 
 
