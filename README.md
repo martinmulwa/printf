@@ -98,6 +98,12 @@ Tasks
 
 - 8. The big print gives and the small print takes away #advanced
 
+- 9. Sarcasm is lost in print #advanced
+
+- 10. Print some money and give it to us for the rain forests #advanced
+
+- 11. The negative is the equivalent of the composer's score, and the print the performance #advanced
+
 
 
 
