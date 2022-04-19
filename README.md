@@ -143,6 +143,14 @@ Now you will have printf.a static library, and all you have to do is compile you
 
 gcc your_C_source_code -L. -lprintf
 
+Examples
+
+#include <limits.h>
+
+#include <stdio.h>
+
+#include "main.h"
+
 
 
 
