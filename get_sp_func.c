@@ -14,6 +14,7 @@ int (*get_sp_func(char c))(va_list, char *, int)
 		{'%', add_percent},
 		{'d', add_int},
 		{'i', add_int},
+		{'b', add_bin},
 		{'\0', NULL}
 	};
 
