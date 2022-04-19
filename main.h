@@ -36,5 +36,6 @@ char *rev_string(char *s);
 int add_rev(va_list ap, char *buffer, int i);
 char *rot13(char *s);
 int add_rot(va_list ap, char *buffer, int i);
+int add_str_print(va_list ap, char *buffer, int i);
 
 #endif
