@@ -261,6 +261,10 @@ Unsigned hexadecimal: [800003ff, 800003FF]
 Character: [H]
 
 Character: [H]
+String: [I am a string!]
+
+String: [I am a string!]
+
 
 
 
