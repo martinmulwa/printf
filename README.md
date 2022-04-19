@@ -61,6 +61,10 @@ Functionname Description  Format Specifier
 print_char   Prints a character %c
 
 print_percent  Prints a percent  %%%
+print_int	Prints and integer %d&%i
+
+print_string	Prints a string     %s
+
 
 
 
