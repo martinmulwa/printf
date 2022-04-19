@@ -15,7 +15,7 @@ int add_str(va_list ap, char *buffer, int i)
 	if (!str)
 		return (copy_to_buff("(null)", buffer, i));
 	else
-		return copy_to_buff(str, buffer, i);
+		return (copy_to_buff(str, buffer, i));
 }
 
 /**
