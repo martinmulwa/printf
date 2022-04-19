@@ -1,7 +1,7 @@
 # ALX Printf Project
 Project:
 
-_printf () – is an ALX project. The task is to write a custom version of the printf () from the standard library.
+_printf – is an ALX project. The task is to write a custom version of the printf from the standard library.
 
 General Requirements:
 
@@ -86,7 +86,7 @@ Tasks
 
 - 1. Education is when you read the fine print. Experience is what you get if you don't mandatory
 
-- 2. Just because it's in print doesn't mean it's the gospel mandatory 
+- 2. Just because it's in print doesn't mean it's the gospel mandatory
 - 3. With a face like mine, I do better in print #advanced
 
 - 4. What one has not experienced, one will never understand in print #advanced
@@ -114,34 +114,6 @@ Tasks
 - 15. The flood of print has turned reading into a process of gulping rather than savoring #advanced
 
 - 16. All of the above functionality should work flawlessly #advanced
-
-
-Installation
-
-In order to use this custom _printf function you need only <unistd.h> library First, clone this repository to your local machine
-
-$ git clone https://github.com/narnat/printf.git
-
-After cloning go to the printf folder
-
-$ cd printf
-
-You can compile it with your your C source code
-
-$ gcc *.c your_C_source_code -o output
-
-But the simplest solution is to make it portable, in other words to create a static library:
-
-
-gcc *.c
-
-ar -rc libprintf. a *. o
-
-ranlib libprintf.a
-
-Now you will have printf.a static library, and all you have to do is compile your code with this library:
-
-gcc your_C_source_code -L. -lprintf
 
 Examples
 
@@ -212,7 +184,7 @@ int main(void)
     printf("String:[%s]\n", "I am a string !");
 
     _printf("Address:[%p]\n", addr);
-   
+
     printf("Address:[%p]\n", addr);
 
     len = _printf("Percent:[%%]\n");
@@ -280,19 +252,3 @@ Len:[12]
 Unknown: [%r]
 
 Unknown: [%r]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
