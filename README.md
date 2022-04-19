@@ -115,6 +115,10 @@ Tasks
 
 - 16. All of the above functionality should work flawlessly #advanced
 
+Installation
+
+In order to use this custom _printf function you need only <unistd.h> library First, clone this repository to your local machine
+
 
 
 
