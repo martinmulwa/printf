@@ -86,9 +86,10 @@ Tasks
 
 - 1. Education is when you read the fine print. Experience is what you get if you don't mandatory
 
-- 2. Just because it's in print doesn't mean it's the gospel mandatory
+- 2. Just because it's in print doesn't mean it's the gospel mandatory 
+- 3. With a face like mine, I do better in print #advanced
 
-
+- 4. What one has not experienced, one will never understand in print #advanced
 
 
 
