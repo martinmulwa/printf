@@ -32,8 +32,13 @@ All your header files should be included guarded
 
 Note that we will not provide the _putchar function for this project
 
+
 Authorized functions and macros
 
 write (man 2 write)
+
+malloc (man 3 malloc)
+
+free (man 3 free)
 
 
