@@ -228,6 +228,26 @@ int main(void)
     printf("Unknown:[%r]\n");
 
     return (0);
+}
+
+alex@ubuntu:~/printf$ gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c
+
+alex@ubuntu:~/printf$ ./printf
+
+Let's try to printf a simple sentence.
+
+Let's try to printf a simple sentence.
+
+Length: [39, 39]
+
+Length: [39, 39]
+
+Negative: [-762534]
+
+Negative: [-762534]
+
+
+
 
 
 
