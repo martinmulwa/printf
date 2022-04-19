@@ -7,7 +7,7 @@
  *
  * Return: string representing num in the given base. Otherwise NULL
  */
-char *int_to_str(unsigned long int num, int base)
+char *int_to_str(unsigned int num, int base)
 {
 	char *symbols = "0123456789ABCDEF";
 	char *result;
