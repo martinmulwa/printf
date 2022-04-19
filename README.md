@@ -105,6 +105,10 @@ Tasks
 - 11. The negative is the equivalent of the composer's score, and the print the performance #advanced
 
 
+- 12. It's depressing when you're still around and your albums are out of print #advanced
+
+- 13. Every time that I wanted to give up, if I saw an interesting textile, print whatever, suddenly I would see a collection #advanced
+
 
 
 
