@@ -201,6 +201,18 @@ int main(void)
 
     _printf("Unsigned hexadecimal:[%x, %X]\n", ui, ui);
 
+    printf("Unsigned hexadecimal:[%x, %X]\n", ui, ui);
+
+    _printf("Character:[%c]\n", 'H');
+
+    printf("Character:[%c]\n", 'H');
+
+    _printf("String:[%s]\n", "I am a string !");
+
+    _printf("String:[%s]\n", "I am a string !");
+
+    _printf("Address:[%p]\n", addr);
+
 
 
 
