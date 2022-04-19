@@ -15,7 +15,7 @@ int add_rev(va_list ap, char *buffer, int i)
 	int j;
 
 	if (!str)
-		str = "(null)";
+		return (0);
 
 	/* reverse string */
 	rev = rev_string(str);
@@ -59,9 +59,6 @@ char *rev_string(char *s)
 	/* get the length of the string */
 	int length, i;
 	char *result;
-
-	if (!s)
-		return (NULL);
 
 	/* copy characters to result array in reverse order */
 	length = _strlen(s);
