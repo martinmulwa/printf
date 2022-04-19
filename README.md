@@ -94,6 +94,10 @@ Tasks
 
 - 6. My weakness is wearing too much leopard print #advanced
 
+- 7. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print #advanced
+
+- 8. The big print gives and the small print takes away #advanced
+
 
 
 
