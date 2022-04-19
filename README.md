@@ -258,6 +258,10 @@ Unsigned hexadecimal: [800003ff, 800003FF]
 
 Unsigned hexadecimal: [800003ff, 800003FF]
 
+Character: [H]
+
+Character: [H]
+
 
 
 
