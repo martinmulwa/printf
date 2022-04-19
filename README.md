@@ -246,6 +246,14 @@ Negative: [-762534]
 
 Negative: [-762534]
 
+Unsigned: [2147484671]
+
+Unsigned: [2147484671]
+
+Unsigned octal: [20000001777]
+
+Unsigned octal: [20000001777
+
 
 
 
