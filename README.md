@@ -90,6 +90,10 @@ Tasks
 - 3. With a face like mine, I do better in print #advanced
 
 - 4. What one has not experienced, one will never understand in print #advanced
+- 5. Nothing in fine print is ever good news #advanced
+
+- 6. My weakness is wearing too much leopard print #advanced
+
 
 
 
