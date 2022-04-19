@@ -10,14 +10,12 @@ int _printf(const char *format, ...)
 {
 	/* use character buffer to call write as few times as possible */
 	char buffer[SIZE] = {0};
-	int f_idx, b_idx, tmp;
+	int f_idx, b_idx;
 	int (*f)(va_list, char *, int);
 	va_list ap;
 
-	/* dont print null strings */
+	/* only print valid format strings */
 	if (format == NULL)
-		return (-1);
-	if (format[0] == '%' && format[1] == ' ' && !format[2])
 		return (-1);
 
 	va_start(ap, format);
@@ -28,18 +26,12 @@ int _printf(const char *format, ...)
 		/* if the current character is % check the next character */
 		if (format[f_idx] == '%')
 		{
-			f_idx++;
-
+			if (format[f_idx + 1] == '\0')
+				return (-1);
 			/* get correct print function */
-			f = get_sp_func(format[f_idx]);
+			f = get_sp_func(format[++f_idx]);
 			if (f)
-			{
-				tmp = f(ap, buffer, b_idx);
-				if (tmp)
-					b_idx += tmp;
-				else
-					return (-1);
-			}
+				b_idx += f(ap, buffer, b_idx);
 			else
 			{
 				buffer[b_idx++] = '%';
@@ -52,6 +44,5 @@ int _printf(const char *format, ...)
 
 	write(1, buffer, b_idx);
 	va_end(ap);
-
 	return (b_idx);
 }
