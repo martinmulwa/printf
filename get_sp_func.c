@@ -19,6 +19,7 @@ int (*get_sp_func(char c))(va_list, char *, int)
 		{'X', add_hex_upper},
 		{'o', add_oct},
 		{'u', add_unsigned_int},
+		{'r', add_rev},
 		{'\0', NULL}
 	};
 
