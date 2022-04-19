@@ -115,6 +115,7 @@ Tasks
 
 - 16. All of the above functionality should work flawlessly #advanced
 
+
 Installation
 
 In order to use this custom _printf function you need only <unistd.h> library First, clone this repository to your local machine
@@ -122,6 +123,14 @@ In order to use this custom _printf function you need only <unistd.h> library Fi
 $ git clone https://github.com/narnat/printf.git
 
 After cloning go to the printf folder
+
+$ cd printf
+
+You can compile it with your your C source code
+
+$ gcc *.c your_C_source_code -o output
+
+But the simplest solution is to make it portable, in other words to create a static library:
 
 
 
