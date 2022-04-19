@@ -66,7 +66,11 @@ print_int	Prints and integer %d&%i
 print_string	Prints a string     %s
 print_binary	Prints a binary     %b
 
-print_octal	Prints number in base8  %o
+print_octal    Prints number in base8  %o
+print_hex      Prints hexadecimal in lowercase %x
+
+print_HEX    Prints hexadecimal in uppercase %X
+
 
 
 
