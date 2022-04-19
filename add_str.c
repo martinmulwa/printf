@@ -15,7 +15,7 @@ int add_str(va_list ap, char *buffer, int i)
 	int j;
 
 	if (!str)
-		str = "(null)";
+		str = "";
 
 	for (j = 0; str[j] != '\0'; j++, i++)
 		buffer[i] = str[j];
