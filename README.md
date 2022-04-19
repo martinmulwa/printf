@@ -8,7 +8,6 @@ General Requirements:
 Here are the general requirements:
 
 
-
 Allowed editors: vi, vim, emacs
 
 All your files will be compiled on Ubuntu 14.04 LTS
@@ -32,5 +31,9 @@ Don’t forget to push your header file
 All your header files should be included guarded
 
 Note that we will not provide the _putchar function for this project
+
+Authorized functions and macros
+
+write (man 2 write)
 
 
