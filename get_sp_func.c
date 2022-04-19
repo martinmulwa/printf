@@ -22,6 +22,7 @@ int (*get_sp_func(char c))(va_list, char *, int)
 		{'u', add_unsigned_int},
 		{'r', add_rev},
 		{'R', add_rot},
+		{'p', add_address},
 		{'\0', NULL}
 	};
 
