@@ -12,6 +12,9 @@ int add_char(va_list ap, char *buffer, int i)
 {
 	char c = (char) va_arg(ap, int);
 
+	if (!c)
+		return (0);
+
 	buffer[i] = c;
 
 	return (1);

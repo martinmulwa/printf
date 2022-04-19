@@ -14,7 +14,7 @@ int add_str(va_list ap, char *buffer, int i)
 	char *str = va_arg(ap, char *);
 	int j;
 
-	if (str == NULL)
+	if (!str)
 		return (0);
 
 	for (j = 0; str[j] != '\0'; j++, i++)
