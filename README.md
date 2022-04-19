@@ -57,7 +57,11 @@ You might want to look at the gcc flag -Wno-format when testing with your _print
 
 Format Specifiers
 
-Functionname Description	Format Specifier
+Functionname Description  Format Specifier
+print_char   Prints a character %c
+
+print_percent  Prints a percent  %%%
+
 
 
 
