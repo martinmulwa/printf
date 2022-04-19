@@ -254,6 +254,10 @@ Unsigned octal: [20000001777]
 
 Unsigned octal: [20000001777
 
+Unsigned hexadecimal: [800003ff, 800003FF]
+
+Unsigned hexadecimal: [800003ff, 800003FF]
+
 
 
 
