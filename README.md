@@ -1,9 +1,9 @@
 # ALX Printf Project
-Project:
+**Project:**
 
 _printf – is an ALX project. The task is to write a custom version of the printf from the standard library.
 
-General Requirements:
+**General Requirements:**
 
 Here are the general requirements:
 
@@ -33,7 +33,7 @@ All your header files should be included guarded
 Note that we will not provide the _putchar function for this project
 
 
-Authorized functions and macros
+**Authorized functions and macros**
 
 write (man 2 write)
 
@@ -48,7 +48,7 @@ va_copy (man 3 va_copy)
 va_arg (man 3 va_arg)
 
 
-Compilation
+**Compilation**
 
 Your code will be compiled this way: $ gcc -Wall -Werror -Wextra -pedantic *.c
 As a consequence, be careful not to push any c file containing a main function in the root directory of your project (you could have a test folder containing all your tests files including main functions)
@@ -80,7 +80,7 @@ print_rev	Prints string in reverse, custom specifier %r
 
 print_rot13	Prints string in rot13, custom specifier %R
 
-Tasks
+**Tasks**
 
 - 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life mandatory
 
@@ -104,7 +104,6 @@ Tasks
 
 - 11. The negative is the equivalent of the composer's score, and the print the performance #advanced
 
-
 - 12. It's depressing when you're still around and your albums are out of print #advanced
 
 - 13. Every time that I wanted to give up, if I saw an interesting textile, print whatever, suddenly I would see a collection #advanced
@@ -115,7 +114,7 @@ Tasks
 
 - 16. All of the above functionality should work flawlessly #advanced
 
-Examples
+**Examples**
 
 #include <limits.h>
 
@@ -233,6 +232,7 @@ Unsigned hexadecimal: [800003ff, 800003FF]
 Character: [H]
 
 Character: [H]
+
 String: [I am a string!]
 
 String: [I am a string!]
@@ -251,4 +251,6 @@ Len:[12]
 
 Unknown: [%r]
 
-Unknown: [%r]
+Authors:
+Martin Pius Mulwa
+Thonne Twange
