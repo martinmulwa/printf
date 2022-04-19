@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#define SIZE 1024 /* buffer size */
+#define SIZE 1024000 /* buffer size */
 
 /**
  * struct sp - Struct sp
