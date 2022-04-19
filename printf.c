@@ -6,11 +6,10 @@
  *
  * Return: number of characters printed. Otherwise -1
  */
-
 int _printf(const char *format, ...)
 {
 	/* use character buffer to call write as few times as possible */
-	char buffer[SIZE];
+	char buffer[SIZE] = {0};
 	int f_idx, b_idx;
 	int (*f)(va_list, char *, int);
 	va_list ap;
@@ -25,14 +24,20 @@ int _printf(const char *format, ...)
 	for (f_idx = 0, b_idx = 0; format[f_idx] != '\0'; f_idx++)
 	{
 		/* if the current character is % check the next character */
-		if (format[f_idx] == '%' && format[f_idx + 1] != '\0')
+		if (format[f_idx] == '%')
 		{
+			f_idx++;
+
 			/* get correct print function */
-			f = get_sp_func(format[f_idx + 1]);
+			f = get_sp_func(format[f_idx]);
 			if (f)
 			{
 				b_idx += f(ap, buffer, b_idx);
-				f_idx++;
+			}
+			else
+			{
+				buffer[b_idx++] = '%';
+				buffer[b_idx++] = format[f_idx];
 			}
 		}
 		else
@@ -42,7 +47,8 @@ int _printf(const char *format, ...)
 		}
 	}
 
+	write(1, buffer, b_idx);
 	va_end(ap);
 
-	return (write(1, buffer, b_idx));
+	return (b_idx);
 }
